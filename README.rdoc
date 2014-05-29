@@ -1,0 +1,58 @@
+= Bootstrap GUI for Ruby on Rails
+
+Practical and easy to use GUI made with Bootstrap for Ruby on Rails.
+
+Status : Working on !
+
+== Features Out Of The Box
+
+* Authentication.
+* Authorization.
+* Users Management.
+* Roles Management.
+* Menus Management.
+* Errors Management.
+* Logs Management.
+
+== Used Tools
+
+* {Ruby 2.1.2}[http://www.ruby-lang.org/]
+* {Rails 4.1.1}[http://rubyonrails.org/]
+* {Bootstrap}[http://getbootstrap.com/] front-end framework.
+* {Sass}[http://sass-lang.com/]
+* {sass-rails}[http://github.com/rails/sass-rails]
+* {bootstrap-sass}[http://github.com/twbs/bootstrap-sass]
+* {jQuery}[http://jquery.com/]
+* {jquery-rails}[http://github.com/rails/jquery-rails]
+* {Turbolinks}[http://github.com/rails/turbolinks]
+* {Devise}[http://github.com/plataformatec/devise] Flexible authentication solution for Rails with {Warden}[http://github.com/hassox/warden].
+* {CanCan}[http://github.com/ryanb/cancan] Authorization Gem for Ruby on Rails.
+
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
