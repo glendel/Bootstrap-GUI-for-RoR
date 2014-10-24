@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
+//= require_self
 //= require_tree .
+//= stub html5shiv.min
+//= stub respond.min

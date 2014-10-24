@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="<%= I18n.locale -%>">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Changeme</title>
-  <%= stylesheet_link_tag( 'application', { :media => 'all', 'data-turbolinks-track' => true } ) %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-  <%= javascript_include_tag( 'application', { 'data-turbolinks-track' => true } ) %>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Changeme</title>
+    <%= stylesheet_link_tag( 'application', { :media => 'all', 'data-turbolinks-track' => true } ) -%>
+    <%= csrf_meta_tags -%>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries //-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file: //-->
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag( 'html5shiv.min', 'respond.min', { 'data-turbolinks-track' => true } ) -%>
+    <![endif]-->
+  </head>
+  <body>
+    <%= yield -%>
+    <%= javascript_include_tag( 'application', { 'data-turbolinks-track' => true } ) -%>
+  </body>
 </html>
