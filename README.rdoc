@@ -16,8 +16,8 @@ Status : Working on !
 
 == Used Tools
 
-* {Ruby 2.1.2}[http://www.ruby-lang.org/]
-* {Rails 4.1.1}[http://rubyonrails.org/]
+* {Ruby 2.1.5}[http://www.ruby-lang.org/]
+* {Rails 4.1.8}[http://rubyonrails.org/]
 * {Bootstrap}[http://getbootstrap.com/] front-end framework.
 * {Sass}[http://sass-lang.com/]
 * {sass-rails}[http://github.com/rails/sass-rails]
